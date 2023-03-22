@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <nav>
+        <center>
+            <table>
+                <tr>
+                    <th><a href="index.html"><img src="./asset/images/logo.png" alt="Saylani logo"></a></th>
+                    <th><a href="index.html">Home |</a></th>
+                    <th><a href="about.html">About |</a></th>
+                    <th><a href="gallery.html">Gallery |</a></th>
+                    <th><a href="media.html">Media |</a></th>
+                    <th><a href="contact.html">Contact |</a></th>
+                    <th><a href="login.html">Login |</a></th>
+                    <th><a href="register.html">Register |</a></th>
+                </tr>
+            </table>
+        </center>
+    </nav>
+
+    <main>
+        <center>
+            <hr>
+            <h1>This is Register page</h1>
+            <hr>
+            <h2>Register Here</h2>
+            <p>All the fields are required.</p>
+            <hr>
+            
+            <fieldset style="width: 200px";>
+                <legend>Regsiter</legend>
+                <br><br>
+                <label for="name">Enter your Name :</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required />
+                <br><br>
+                <label for="email">Enter your Email :</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required/>
+                <br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Password" />
+                <br><br>
+                Gender:
+                <br>
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <br><br>
+                Hobbies:
+                <br>
+                <label for="music">Music:</label>
+                <input type="checkbox" name="hobbies" value="music" id="music" checked>
+                <label for="art">Art</label>
+                <input type="checkbox" name="hobbies" value="art" id="art">
+                <label for="painting">Painting</label>
+                <input type="checkbox" name="hobbies" value="painting" id="painting">
+                <br><br>
+                Country:
+                <br>
+                <select name="country">
+                    <option value=""></option>
+                    <option value="pakistan" selected>Pakistan</option>
+                    <option value="Saudia">Saudi Arabia</option>
+                    <option value="england">England</option>
+                </select>
+                <br><br>
+                DOB:
+                <br>
+                <input type="date" name="dob">
+                <br><br>
+                Upload your photo:
+                <br>
+                <input type="file" name="profilePhoto">
+                <br><br>
+                <button>Register</button>
+                <br><br>
+                <a href="login.html">Login here</a>
+                
+                
+            </fieldset>
+        </center>
+            <hr>
+        </main>
+
+    <footer>
+        <center>
+            <p>&copy; 2022. All Rights Reserved. | SMIT</p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
